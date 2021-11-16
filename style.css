@@ -71,3 +71,26 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+   #lezioni .row  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f3cc;
+  }
+
+    #steps .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+
+  #why .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f3cc;
+  }
+}
