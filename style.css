@@ -73,26 +73,14 @@ img {
 }
 
 @media screen and (max-width: 420px) {
-   #lezioni .row  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
-    background-color: #f2f3cc;
-  }
+    .row{
+      width: 100%;
+    }
 
-    #steps .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-  }
-
-  #why .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f2f3cc;
+   #lezioni .row .left, #lezioni .row .right {
+      float: none;
+      width: 100%; 
+      background-color: red;
   }
 }
 
